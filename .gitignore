@@ -6,7 +6,7 @@ bin-release/
 
 # Other files and folders
 .settings/
-application/database.php
+#application/database.php
 # Executables
 *.swf
 *.air
