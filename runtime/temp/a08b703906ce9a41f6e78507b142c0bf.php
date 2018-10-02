@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:79:"E:\laragon\www\tuiguanjia\public/../application/admin\view\dashboard\index.html";i:1536636085;s:68:"E:\laragon\www\tuiguanjia\application\admin\view\layout\default.html";i:1536636085;s:65:"E:\laragon\www\tuiguanjia\application\admin\view\common\meta.html";i:1536636085;s:67:"E:\laragon\www\tuiguanjia\application\admin\view\common\script.html";i:1536636085;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:79:"E:\laragon\www\tuiguanjia\public/../application/admin\view\dashboard\index.html";i:1538465284;s:68:"E:\laragon\www\tuiguanjia\application\admin\view\layout\default.html";i:1536636085;s:65:"E:\laragon\www\tuiguanjia\application\admin\view\common\meta.html";i:1536636085;s:67:"E:\laragon\www\tuiguanjia\application\admin\view\common\script.html";i:1536636085;}*/ ?>
 <!DOCTYPE html>
 <html lang="<?php echo $config['language']; ?>">
     <head>
@@ -392,7 +392,7 @@
                                 </div>
                             </div>
                             <div class="box-body" id="news-list">
-                                
+
                             </div>
                         </div>
                     </div>
@@ -405,7 +405,7 @@
                                 </div>
                             </div>
                             <div class="box-body" id="discussion-list">
-                                
+
                             </div>
                         </div>
                     </div>
@@ -510,6 +510,7 @@
             createdata: <?php echo json_encode(array_values($createlist)); ?>,
     };
 </script>
+
                             </div>
                         </div>
                     </div>

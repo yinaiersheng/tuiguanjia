@@ -16,15 +16,15 @@ return [
     // 数据库类型
     'type'            => Env::get('database.type', 'mysql'),
     // 服务器地址
-    'hostname'        => Env::get('database.hostname', 'sxl1ulvb.2297.dnstoo.com'),
+    'hostname'        => Env::get('database.hostname', '127.0.0.1'),
     // 数据库名
-    'database'        => Env::get('database.database', 'tpadmin'),
+    'database'        => Env::get('database.database', 'fastadmin'),
     // 用户名
-    'username'        => Env::get('database.username', 'tpadmin_f'),
+    'username'        => Env::get('database.username', 'root'),
     // 密码
-    'password'        => Env::get('database.password', 'mm481002'),
+    'password'        => Env::get('database.password', 'root'),
     // 端口
-    'hostport'        => Env::get('database.hostport', '5512'),
+    'hostport'        => Env::get('database.hostport', '3306'),
     // 连接dsn
     'dsn'             => '',
     // 数据库连接参数

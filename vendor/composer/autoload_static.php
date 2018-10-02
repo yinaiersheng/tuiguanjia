@@ -26,10 +26,6 @@ class ComposerStaticInitd15e2bd93c7f83bfccc320b8bde0c0e9
             'think\\captcha\\' => 14,
             'think\\' => 6,
         ),
-        'W' => 
-        array (
-            'Workerman\\' => 10,
-        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Php70\\' => 23,
@@ -58,7 +54,6 @@ class ComposerStaticInitd15e2bd93c7f83bfccc320b8bde0c0e9
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
-            'GatewayWorker\\' => 14,
         ),
         'E' => 
         array (
@@ -88,10 +83,6 @@ class ComposerStaticInitd15e2bd93c7f83bfccc320b8bde0c0e9
         array (
             0 => __DIR__ . '/..' . '/karsonzhang/fastadmin-addons/src',
             1 => __DIR__ . '/../..' . '/thinkphp/library/think',
-        ),
-        'Workerman\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/workerman/workerman',
         ),
         'Symfony\\Polyfill\\Php70\\' => 
         array (
@@ -148,10 +139,6 @@ class ComposerStaticInitd15e2bd93c7f83bfccc320b8bde0c0e9
         'GuzzleHttp\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
-        ),
-        'GatewayWorker\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/workerman/gateway-worker/src',
         ),
         'Endroid\\QrCode\\' => 
         array (

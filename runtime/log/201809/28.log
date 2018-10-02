@@ -427,3 +427,723 @@
 [ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.022261s ]
 [ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.026419s ]
 [ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.020648s ]
+---------------------------------------------------------------
+[ 2018-09-28T20:59:02+08:00 ] 127.0.0.1 GET /admin/index/logout
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-09-28T20:59:16+08:00 ] 127.0.0.1 GET /admin/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-09-28T20:59:25+08:00 ] 127.0.0.1 GET /admin/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-09-28T13:05:33+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.121974s][吞吐率：8.20req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:05:34+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.028315s][吞吐率：35.32req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:05:35+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.024287s][吞吐率：41.17req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:05:35+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.023134s][吞吐率：43.23req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:05:47+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.026604s][吞吐率：37.59req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:05:48+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.024327s][吞吐率：41.11req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:05:48+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.024564s][吞吐率：40.71req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:05:49+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.027278s][吞吐率：36.66req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:05:49+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.023325s][吞吐率：42.87req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:05:49+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.025132s][吞吐率：39.79req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:05:49+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.025076s][吞吐率：39.88req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:05:49+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.026208s][吞吐率：38.16req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:05:49+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.024489s][吞吐率：40.83req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:05:50+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.024506s][吞吐率：40.81req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:05:50+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.024962s][吞吐率：40.06req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:05:50+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.024859s][吞吐率：40.23req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:05:50+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.025315s][吞吐率：39.50req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:05:50+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.024529s][吞吐率：40.77req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:05:50+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.025494s][吞吐率：39.23req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:05:50+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.024514s][吞吐率：40.79req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:05:51+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.025325s][吞吐率：39.49req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:05:51+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.024889s][吞吐率：40.18req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:06:43+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.022782s][吞吐率：43.89req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:06:43+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.023868s][吞吐率：41.90req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:06:44+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.023813s][吞吐率：41.99req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:06:44+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.023814s][吞吐率：41.99req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:06:44+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.025264s][吞吐率：39.58req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:06:45+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.028184s][吞吐率：35.48req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:06:45+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.023487s][吞吐率：42.58req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:07:01+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.023712s][吞吐率：42.17req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:07:01+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.024932s][吞吐率：40.11req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:07:02+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.023493s][吞吐率：42.57req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:07:02+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.026685s][吞吐率：37.47req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:07:02+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.025523s][吞吐率：39.18req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:07:03+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.023454s][吞吐率：42.64req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:07:03+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.026177s][吞吐率：38.20req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:07:03+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.025557s][吞吐率：39.13req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:07:03+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.025791s][吞吐率：38.77req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:07:03+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.027619s][吞吐率：36.21req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:07:03+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.023696s][吞吐率：42.20req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:07:04+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.026387s][吞吐率：37.90req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:07:04+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.024603s][吞吐率：40.65req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:07:04+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.025876s][吞吐率：38.65req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:07:04+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.023533s][吞吐率：42.49req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T13:07:04+00:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] tuiguanjia.test/admin/index/index [运行时间：0.025228s][吞吐率：39.64req/s] [内存消耗：1,534.82kb] [文件加载：36]
+[ error ] [0]Fatal error: Call to undefined function dump()[E:\laragon\www\tuiguanjia\application\database.php:14]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T21:08:45+08:00 ] 127.0.0.1 GET /admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.041921s ] mysql:host=sxl1ulvb.2297.dnstoo.com;port=5512;dbname=tpadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.032663s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.030647s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.027251s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.026439s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:08:45+08:00 ] 127.0.0.1 GET /admin/dashboard?addtabs=1
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-09-28T21:08:49+08:00 ] 127.0.0.1 GET /admin/dashboard?ref=addtabs
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-09-28T21:08:51+08:00 ] 127.0.0.1 GET /admin/dashboard?ref=addtabs
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-09-28T21:08:51+08:00 ] 127.0.0.1 GET /admin/dashboard?ref=addtabs
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-09-28T21:08:51+08:00 ] 127.0.0.1 GET /admin/dashboard?ref=addtabs
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-09-28T21:08:52+08:00 ] 127.0.0.1 GET /admin/dashboard?ref=addtabs
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-09-28T21:08:52+08:00 ] 127.0.0.1 GET /admin/dashboard?ref=addtabs
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-09-28T21:08:52+08:00 ] 127.0.0.1 GET /admin/dashboard?ref=addtabs
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-09-28T21:08:52+08:00 ] 127.0.0.1 GET /admin/dashboard?ref=addtabs
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-09-28T21:08:52+08:00 ] 127.0.0.1 GET /admin/dashboard?ref=addtabs
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-09-28T21:08:53+08:00 ] 127.0.0.1 GET /admin/dashboard?ref=addtabs
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-09-28T21:08:53+08:00 ] 127.0.0.1 GET /admin/dashboard?ref=addtabs
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-09-28T21:08:53+08:00 ] 127.0.0.1 GET /admin/dashboard?ref=addtabs
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-09-28T21:08:53+08:00 ] 127.0.0.1 GET /admin/dashboard?ref=addtabs
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-09-28T21:08:53+08:00 ] 127.0.0.1 GET /admin/dashboard?ref=addtabs
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-09-28T21:08:53+08:00 ] 127.0.0.1 GET /admin/dashboard?ref=addtabs
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-09-28T21:08:54+08:00 ] 127.0.0.1 GET /admin/dashboard?ref=addtabs
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-09-28T21:08:54+08:00 ] 127.0.0.1 GET /admin/dashboard?ref=addtabs
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-09-28T21:08:54+08:00 ] 127.0.0.1 GET /admin/dashboard?ref=addtabs
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-09-28T21:09:07+08:00 ] 127.0.0.1 GET /admin/index/index
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-09-28T21:09:25+08:00 ] 127.0.0.1 GET /admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.045894s ] mysql:host=sxl1ulvb.2297.dnstoo.com;port=5512;dbname=tpadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.026405s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.023522s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.024625s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.028359s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:09:25+08:00 ] 127.0.0.1 GET /admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.041646s ] mysql:host=sxl1ulvb.2297.dnstoo.com;port=5512;dbname=tpadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.022215s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.020914s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.027982s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.028402s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.022033s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:09:30+08:00 ] 127.0.0.1 GET /admin/index/logout
+[ sql ] [ DB ] CONNECT:[ UseTime:0.035276s ] mysql:host=sxl1ulvb.2297.dnstoo.com;port=5512;dbname=tpadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.022005s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.022637s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `token`='',`updatetime`=1538140170  WHERE  `id` = 1 [ RunTime:0.023068s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:09:52+08:00 ] 127.0.0.1 POST /admin/index/login
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-09-28T21:10:19+08:00 ] 127.0.0.1 POST /admin/index/login
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-09-28T21:11:44+08:00 ] 127.0.0.1 POST /admin/index/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002480s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.004008s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000581s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `logintime`=1538140304,`token`='ca9552b6-d486-4b8c-9ddb-798d9d1c84aa',`updatetime`=1538140304  WHERE  `id` = 1 [ RunTime:0.102952s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.003682s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"__token__\":\"b2ab18c07616c9b164064e2a8dc7e1f6\",\"username\":\"admin\"}' , '/admin/index/login' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36' , '127.0.0.1' , 1538140304) [ RunTime:0.032088s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:11:45+08:00 ] 127.0.0.1 GET /admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001431s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.002762s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001745s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002309s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001325s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:11:45+08:00 ] 127.0.0.1 GET /admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001729s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001847s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001475s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001960s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001221s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000582s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:14:26+08:00 ] 127.0.0.1 GET /admin/index/logout
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001965s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.002189s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000481s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `token`='',`updatetime`=1538140466  WHERE  `id` = 1 [ RunTime:0.080649s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:20:34+08:00 ] 127.0.0.1 POST /admin/index/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002167s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.002337s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000698s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `logintime`=1538140834,`token`='629a85b1-6f74-45f9-8d32-517234488b43',`updatetime`=1538140834  WHERE  `id` = 1 [ RunTime:0.069426s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.003648s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"__token__\":\"f48f0faf2ff157ab825f03959b7257f1\",\"username\":\"admin\"}' , '/admin/index/login.html' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36' , '127.0.0.1' , 1538140834) [ RunTime:0.035367s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:20:34+08:00 ] 127.0.0.1 GET /admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001323s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001773s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001682s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000838s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:20:34+08:00 ] 127.0.0.1 GET /admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001966s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001291s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001296s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000890s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000644s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:22:48+08:00 ] 127.0.0.1 GET /admin/auth/admin?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001798s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.002924s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002025s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002601s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001052s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.001938s ]
+[ sql ] [ SQL ] SELECT `id` FROM `fa_admin` [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000819s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'auth/admin' LIMIT 1 [ RunTime:0.000574s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:22:49+08:00 ] 127.0.0.1 GET /admin/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1538140968892
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001378s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001880s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001523s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002009s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.001906s ]
+[ sql ] [ SQL ] SELECT `id` FROM `fa_admin` [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.000897s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `fa_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `fa_auth_group_access` WHERE  `group_id` IN (1,2,3,4,5) [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_admin` WHERE  `id` IN (1,2,4,3,5) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `fa_admin` WHERE  `id` IN (1,2,4,3,5) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000410s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:23:35+08:00 ] 127.0.0.1 GET /admin/auth/group?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002100s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.002746s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001857s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002465s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000982s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.001240s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000512s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'auth/group' LIMIT 1 [ RunTime:0.000568s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:23:35+08:00 ] 127.0.0.1 GET /admin/auth/group/index?sort=id&order=desc&_=1538141015626
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001678s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.002082s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001550s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001970s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group` [ RunTime:0.001118s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_group` WHERE  `id` IN (1,2,3,5,4) [ RunTime:0.000589s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:24:47+08:00 ] 127.0.0.1 GET /admin/user/user?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002015s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.003272s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001749s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002179s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000839s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'user/user' LIMIT 1 [ RunTime:0.000521s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:24:47+08:00 ] 127.0.0.1 GET /admin/user/user/index?sort=user.id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1538141087584
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001655s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.002565s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001665s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002148s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000887s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.004763s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_group` [ RunTime:0.004085s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` `user` LEFT JOIN `fa_user_group` `group` ON `user`.`group_id`=`group`.`id` ORDER BY `user`.`id` DESC LIMIT 1 [ RunTime:0.001469s ]
+[ sql ] [ SQL ] SELECT `user`.`id`,`user`.`group_id`,`user`.`username`,`user`.`nickname`,`user`.`password`,`user`.`salt`,`user`.`email`,`user`.`mobile`,`user`.`avatar`,`user`.`level`,`user`.`gender`,`user`.`birthday`,`user`.`bio`,`user`.`score`,`user`.`successions`,`user`.`maxsuccessions`,`user`.`prevtime`,`user`.`logintime`,`user`.`loginip`,`user`.`loginfailure`,`user`.`joinip`,`user`.`jointime`,`user`.`createtime`,`user`.`updatetime`,`user`.`token`,`user`.`status`,`user`.`verification`,group.id AS group__id,group.name AS group__name,group.rules AS group__rules,group.createtime AS group__createtime,group.updatetime AS group__updatetime,group.status AS group__status FROM `fa_user` `user` LEFT JOIN `fa_user_group` `group` ON `user`.`group_id`=`group`.`id` ORDER BY `user`.`id` DESC LIMIT 0,10 [ RunTime:0.001730s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:25:11+08:00 ] 127.0.0.1 GET /admin/category?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001661s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.002671s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001505s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002256s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001011s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.002293s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` ORDER BY `weigh` DESC,`id` DESC [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'category' LIMIT 1 [ RunTime:0.000551s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:25:11+08:00 ] 127.0.0.1 GET /admin/category/index?sort=weigh&order=desc&_=1538141111508
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001728s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.002107s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002296s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002174s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000876s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.002253s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` ORDER BY `weigh` DESC,`id` DESC [ RunTime:0.000681s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:25:24+08:00 ] 127.0.0.1 GET /admin/user/group?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001447s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001958s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002277s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002879s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001250s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'user/group' LIMIT 1 [ RunTime:0.000523s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:25:25+08:00 ] 127.0.0.1 GET /admin/user/group/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1538141125005
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001442s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001856s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001492s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002042s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000931s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_group` [ RunTime:0.002095s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user_group` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_group` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000494s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:25:30+08:00 ] 127.0.0.1 GET /admin/user/rule?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001848s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001133s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000777s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001446s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001267s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_rule` [ RunTime:0.002830s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_rule` ORDER BY `weigh` DESC [ RunTime:0.000841s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'user/rule' LIMIT 1 [ RunTime:0.000669s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:25:30+08:00 ] 127.0.0.1 GET /admin/user/rule/index?sort=weigh&order=desc&_=1538141130479
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001332s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000970s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000784s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000777s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_rule` [ RunTime:0.001908s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_rule` ORDER BY `weigh` DESC [ RunTime:0.000504s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:25:54+08:00 ] 127.0.0.1 GET /admin/user/group/edit/ids/1?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002020s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.003127s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002473s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.003314s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000860s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_group` [ RunTime:0.003894s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_rule` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_rule` WHERE  `status` = 'normal' ORDER BY `weigh` DESC,`id` DESC [ RunTime:0.000860s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000511s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:26:32+08:00 ] 127.0.0.1 GET /admin/user/user/edit/ids/1?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001650s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.002094s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001404s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001751s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000742s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.002100s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_group` [ RunTime:0.001573s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `fa_user_group` [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000409s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:27:15+08:00 ] 127.0.0.1 POST /admin/ajax/upload
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002137s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_attachment` [ RunTime:0.003435s ]
+[ sql ] [ SQL ] INSERT INTO `fa_attachment` (`admin_id` , `filesize` , `imagewidth` , `imageheight` , `imagetype` , `mimetype` , `url` , `uploadtime` , `storage` , `sha1` , `createtime` , `updatetime`) VALUES (1 , 80281 , '720' , '1280' , 'jpg' , 'image/jpeg' , '/uploads/20180928/ae48bda33954faa11fef79a7ae1861c2.jpg' , 1538141235 , 'local' , '3b0d5bef448012c72c33629db4cd6fd5af4b14c4' , 1538141235 , 1538141235) [ RunTime:0.032403s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.002811s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"name\":\"35066bcd2e5dd6b432372ad1e1b357bb7e8d8d2c.jpg\"}' , '/admin/ajax/upload' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36' , '127.0.0.1' , 1538141235) [ RunTime:0.024558s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:27:20+08:00 ] 127.0.0.1 POST /admin/user/user/edit/ids/1?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001497s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001388s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000731s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001354s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000974s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001780s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000883s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_group` [ RunTime:0.001282s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `fa_user_group` [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000626s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `username`='user',`nickname`='user',`password`='6f4a2d20933ba8fbbeafceeec9b43e28',`salt`='bM3IPa',`avatar`='/uploads/20180928/ae48bda33954faa11fef79a7ae1861c2.jpg',`level`=0,`gender`=0,`score`=0,`loginfailure`=0,`updatetime`=1538141240  WHERE  `id` = 1 [ RunTime:0.051138s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.002009s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('会员管理 会员管理 编辑' , '{\"dialog\":\"1\",\"row\":{\"group_id\":\"1\",\"username\":\"user\",\"nickname\":\"user\",\"password\":\"user\",\"email\":\"admin@163.com\",\"mobile\":\"13888888888\",\"avatar\":\"\\/uploads\\/20180928\\/ae48bda33954faa11fef79a7ae1861c2.jpg\",\"level\":\"0\",\"gender\":\"0\",\"birthday\":\"2017-04-15\",\"bio\":\"\",\"score\":\"0\",\"successions\":\"1\",\"maxsuccessions\":\"1\",\"prevtime\":\"2018-01-17 14:28:12\",\"logintime\":\"2018-01-17 14:46:54\",\"loginip\":\"127.0.0.1\",\"loginfailure\":\"0\",\"joinip\":\"127.0.0.1\",\"jointime\":\"2017-04-06 14:50:18\",\"status\":\"normal\"},\"ids\":\"1\"}' , '/admin/user/user/edit/ids/1?dialog=1' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36' , '127.0.0.1' , 1538141240) [ RunTime:0.025116s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:27:20+08:00 ] 127.0.0.1 GET /admin/user/user/index?sort=user.id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1538141087585
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001736s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001476s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000894s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001200s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000954s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.003011s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_group` [ RunTime:0.003205s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` `user` LEFT JOIN `fa_user_group` `group` ON `user`.`group_id`=`group`.`id` ORDER BY `user`.`id` DESC LIMIT 1 [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SELECT `user`.`id`,`user`.`group_id`,`user`.`username`,`user`.`nickname`,`user`.`password`,`user`.`salt`,`user`.`email`,`user`.`mobile`,`user`.`avatar`,`user`.`level`,`user`.`gender`,`user`.`birthday`,`user`.`bio`,`user`.`score`,`user`.`successions`,`user`.`maxsuccessions`,`user`.`prevtime`,`user`.`logintime`,`user`.`loginip`,`user`.`loginfailure`,`user`.`joinip`,`user`.`jointime`,`user`.`createtime`,`user`.`updatetime`,`user`.`token`,`user`.`status`,`user`.`verification`,group.id AS group__id,group.name AS group__name,group.rules AS group__rules,group.createtime AS group__createtime,group.updatetime AS group__updatetime,group.status AS group__status FROM `fa_user` `user` LEFT JOIN `fa_user_group` `group` ON `user`.`group_id`=`group`.`id` ORDER BY `user`.`id` DESC LIMIT 0,10 [ RunTime:0.000986s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:27:35+08:00 ] 127.0.0.1 GET /index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002736s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.002287s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000469s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:27:55+08:00 ] 127.0.0.1 GET /admin/user/user/edit/ids/1?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001509s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.000981s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000942s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000781s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.002776s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000670s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_group` [ RunTime:0.001707s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `fa_user_group` [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000557s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:28:04+08:00 ] 127.0.0.1 POST /admin/user/user/edit/ids/1?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001978s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001544s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001387s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000991s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.002308s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000995s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_group` [ RunTime:0.002253s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `fa_user_group` [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000420s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `password`='9ea16f0311119e958ac3f9e2c233bf63',`salt`='UpDENa',`level`=0,`gender`=0,`score`=0,`loginfailure`=0,`updatetime`=1538141284  WHERE  `id` = 1 [ RunTime:0.042565s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.004046s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('会员管理 会员管理 编辑' , '{\"dialog\":\"1\",\"row\":{\"group_id\":\"1\",\"username\":\"user\",\"nickname\":\"user\",\"password\":\"user123\",\"email\":\"admin@163.com\",\"mobile\":\"13888888888\",\"avatar\":\"\\/uploads\\/20180928\\/ae48bda33954faa11fef79a7ae1861c2.jpg\",\"level\":\"0\",\"gender\":\"0\",\"birthday\":\"2017-04-15\",\"bio\":\"\",\"score\":\"0\",\"successions\":\"1\",\"maxsuccessions\":\"1\",\"prevtime\":\"2018-01-17 14:28:12\",\"logintime\":\"2018-01-17 14:46:54\",\"loginip\":\"127.0.0.1\",\"loginfailure\":\"0\",\"joinip\":\"127.0.0.1\",\"jointime\":\"2017-04-06 14:50:18\",\"status\":\"normal\"},\"ids\":\"1\"}' , '/admin/user/user/edit/ids/1?dialog=1' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36' , '127.0.0.1' , 1538141284) [ RunTime:0.022617s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:28:04+08:00 ] 127.0.0.1 GET /admin/user/user/index?sort=user.id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1538141087586
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002138s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.003239s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001058s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001569s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.003046s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_group` [ RunTime:0.002957s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` `user` LEFT JOIN `fa_user_group` `group` ON `user`.`group_id`=`group`.`id` ORDER BY `user`.`id` DESC LIMIT 1 [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SELECT `user`.`id`,`user`.`group_id`,`user`.`username`,`user`.`nickname`,`user`.`password`,`user`.`salt`,`user`.`email`,`user`.`mobile`,`user`.`avatar`,`user`.`level`,`user`.`gender`,`user`.`birthday`,`user`.`bio`,`user`.`score`,`user`.`successions`,`user`.`maxsuccessions`,`user`.`prevtime`,`user`.`logintime`,`user`.`loginip`,`user`.`loginfailure`,`user`.`joinip`,`user`.`jointime`,`user`.`createtime`,`user`.`updatetime`,`user`.`token`,`user`.`status`,`user`.`verification`,group.id AS group__id,group.name AS group__name,group.rules AS group__rules,group.createtime AS group__createtime,group.updatetime AS group__updatetime,group.status AS group__status FROM `fa_user` `user` LEFT JOIN `fa_user_group` `group` ON `user`.`group_id`=`group`.`id` ORDER BY `user`.`id` DESC LIMIT 0,10 [ RunTime:0.000675s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:28:10+08:00 ] 127.0.0.1 POST /index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001293s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001099s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `username` = 'user' LIMIT 1 [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `prevtime`=1516171614,`logintime`=1538141290,`updatetime`=1538141290  WHERE  `id` = 1 [ RunTime:0.036969s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.004709s ]
+[ sql ] [ SQL ] INSERT INTO `fa_user_token` (`token` , `user_id` , `createtime` , `expiretime`) VALUES ('9c69b8d6e6d488ff8bd9d5995a8545fc50b49b2f' , 1 , 1538141290 , 1540733290) [ RunTime:0.035892s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:28:12+08:00 ] 127.0.0.1 GET /index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002717s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001996s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '9c69b8d6e6d488ff8bd9d5995a8545fc50b49b2f' LIMIT 1 [ RunTime:0.000477s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001996s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000622s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:28:12+08:00 ] 127.0.0.1 GET /index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001474s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001721s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '9c69b8d6e6d488ff8bd9d5995a8545fc50b49b2f' LIMIT 1 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.002114s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000910s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:28:20+08:00 ] 127.0.0.1 GET /index/user/profile.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001820s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.002284s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '9c69b8d6e6d488ff8bd9d5995a8545fc50b49b2f' LIMIT 1 [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.002169s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000703s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:28:21+08:00 ] 127.0.0.1 GET /index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001302s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001733s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '9c69b8d6e6d488ff8bd9d5995a8545fc50b49b2f' LIMIT 1 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.002027s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000602s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:28:22+08:00 ] 127.0.0.1 GET /index/user/changepwd.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001666s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.002606s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '9c69b8d6e6d488ff8bd9d5995a8545fc50b49b2f' LIMIT 1 [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.002225s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000769s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:28:23+08:00 ] 127.0.0.1 GET /index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001453s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001924s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '9c69b8d6e6d488ff8bd9d5995a8545fc50b49b2f' LIMIT 1 [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.002134s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000708s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:28:24+08:00 ] 127.0.0.1 GET /index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001501s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001987s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '9c69b8d6e6d488ff8bd9d5995a8545fc50b49b2f' LIMIT 1 [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.002920s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000763s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:28:24+08:00 ] 127.0.0.1 GET /index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001513s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001835s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '9c69b8d6e6d488ff8bd9d5995a8545fc50b49b2f' LIMIT 1 [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001238s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000715s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:28:27+08:00 ] 127.0.0.1 GET /index/user/profile.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001500s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001882s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '9c69b8d6e6d488ff8bd9d5995a8545fc50b49b2f' LIMIT 1 [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.002451s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000844s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:28:27+08:00 ] 127.0.0.1 GET /index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001480s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.000943s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '9c69b8d6e6d488ff8bd9d5995a8545fc50b49b2f' LIMIT 1 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001443s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000619s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:28:29+08:00 ] 127.0.0.1 GET /index/user/changepwd.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001736s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.002518s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '9c69b8d6e6d488ff8bd9d5995a8545fc50b49b2f' LIMIT 1 [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001774s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000744s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:28:29+08:00 ] 127.0.0.1 GET /index/ajax/lang?callback=define&controllername=user&v=1.0.1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001366s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001109s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '9c69b8d6e6d488ff8bd9d5995a8545fc50b49b2f' LIMIT 1 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001917s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000621s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:28:30+08:00 ] 127.0.0.1 GET /index/user/logout.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001632s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001952s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '9c69b8d6e6d488ff8bd9d5995a8545fc50b49b2f' LIMIT 1 [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.001371s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000763s ]
+[ sql ] [ SQL ] DELETE FROM `fa_user_token`    WHERE  `token` = '9c69b8d6e6d488ff8bd9d5995a8545fc50b49b2f' [ RunTime:0.065588s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:28:34+08:00 ] 127.0.0.1 GET /index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001507s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.001925s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000425s ]
+---------------------------------------------------------------
+[ 2018-09-28T21:28:44+08:00 ] 127.0.0.1 GET /admin/addon?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001624s ] mysql:host=127.0.0.1;port=3306;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001590s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001304s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001771s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001288s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'addon' LIMIT 1 [ RunTime:0.000699s ]

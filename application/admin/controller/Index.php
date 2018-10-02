@@ -5,6 +5,7 @@ namespace app\admin\controller;
 use app\admin\model\AdminLog;
 use app\common\controller\Backend;
 use think\Config;
+use think\Cookie;
 use think\Hook;
 use think\Validate;
 
@@ -14,7 +15,8 @@ use think\Validate;
  */
 class Index extends Backend
 {
-
+    //protected $dataLimitField = 'admin_id';
+   // protected $dataLimit = 'personal'; //表示仅显示当前自己的数据
     protected $noNeedLogin = ['login'];
     protected $noNeedRight = ['index', 'logout'];
     protected $layout = '';
@@ -29,6 +31,8 @@ class Index extends Backend
      */
     public function index()
     {
+
+
         //左侧菜单
         list($menulist, $navlist, $fixedmenu, $referermenu) = $this->auth->getSidebar([
             'dashboard' => 'hot',

@@ -14,6 +14,18 @@ define([], function () {
 
 require.config({
     paths: {
+        'webix': '../libs/webix/codebase/webix',
+        'filemanager': '../libs/webix/codebase/filemanager',
+    },
+    shim: {
+        "filemanager": {
+            deps: ["webix"],
+            exports: "filemanager"
+        }
+    }
+});
+require.config({
+    paths: {
         'summernote': '../addons/summernote/lang/summernote-zh-CN.min'
     },
     shim: {
